@@ -157,7 +157,7 @@ button {
 }
 .statistics {
 	padding: 122px 0 125px;
-	background: url(/img/Background/stat-bg.png) center center no-repeat;
+	background: url(../img/Background/stat-bg.png) center center no-repeat;
 	background-size: cover;
 }
 .statistics__list {
