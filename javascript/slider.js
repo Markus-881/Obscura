@@ -1,7 +1,7 @@
-const slider = $(".feedback__list").bxslider({
+const slider = $(".feedback__list").bxSlider({
 	pager: false,
 	controls: false,
-	infifiteLoop: true,
+	infiniteLoop: true,
 	touchEnabled: true,
 	hideControlOnEnd: false,
 });
@@ -13,10 +13,10 @@ $(".button--next").click((e) => {
 	e.preventDefault();
 	slider.goToNextSlider();
 });
-const portfolio = $(".portfolio__list").bxslider({
+const portfolio = $(".portfolio__list").bxSlider({
 	pager: false,
 	controls: false,
-	infifiteLoop: true,
+	infiniteLoop: true,
 	touchEnabled: true,
 	hideControlOnEnd: false,
 });
