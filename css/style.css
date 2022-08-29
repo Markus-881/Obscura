@@ -147,6 +147,7 @@ button {
 	font-size: 18px;
 	letter-spacing: 10px;
 	margin-bottom: 30px;
+	text-transform: uppercase;
 }
 .about-me__text {
 	font-size: 15px;
@@ -156,7 +157,7 @@ button {
 }
 .statistics {
 	padding: 122px 0 125px;
-	background: url(../img/Background/stat-bg.png) center center no-repeat;
+	background: url(/img/Background/stat-bg.png) center center no-repeat;
 	background-size: cover;
 }
 .statistics__list {
@@ -376,6 +377,7 @@ button {
 	max-width: 353px;
 	padding: 30px 26px 26px;
 	margin-right: 27px;
+	min-width: 340px;
 }
 .feedback__item:last-child {
 	margin-right: 0px;
