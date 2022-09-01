@@ -8,12 +8,12 @@ const feedback = $(".feedback__list").bxSlider({
 
 $(".button--prev").click((e) => {
   e.preventDefault();
-  feedback.goToPrevSlider();
+  feedback.goToPrevSlide();
 });
 
 $(".button--next").click((e) => {
   e.preventDefault();
-  feedback.goToNextSlider();
+  feedback.goToNextSlide();
 });
 
 const portfolio = $(".portfolio__list").bxSlider({
@@ -26,10 +26,10 @@ const portfolio = $(".portfolio__list").bxSlider({
 
 $(".button--portfolio--prev").click((e) => {
   e.preventDefault();
-  portfolio.goToPrevSlider();
+  portfolio.goToPrevSlide();
 });
 
 $(".button--portfolio--next").click((e) => {
   e.preventDefault();
-  portfolio.goToNextSlider();
+  portfolio.goToNextSlide();
 });
