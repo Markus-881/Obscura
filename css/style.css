@@ -458,7 +458,7 @@ button {
 	.form__content {
 		padding: 32px 50px 58px;
 	}
-	.plan_list {
+	.plan__list {
 		flex-wrap: wrap;
 		border: 1px solid #fff;
 	}
