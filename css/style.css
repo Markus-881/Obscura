@@ -187,7 +187,7 @@ button {
 	text-align: center;
 	margin-bottom: 84px;
 }
-.plan_subtitle {
+.plan__subtitle {
 	font-size: 18px;
 	margin-bottom: 20px;
 	letter-spacing: 10px;
@@ -197,7 +197,7 @@ button {
 	font-family: 'Montserrat';
 	font-size: 48px;
 }
-.plan_list {
+.plan__list {
 	display: flex;
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
