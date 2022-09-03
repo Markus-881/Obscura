@@ -440,6 +440,11 @@ button {
 	display: flex;
 	justify-content: space-between;
 }
+.bx-wrapper {
+        box-shadow: none;
+        border: none;
+        background: none;
+}
 @media screen and (max-width:550px) {
 	.footer {
 		padding: 101px 0 46px;
