@@ -440,6 +440,9 @@ button {
 	display: flex;
 	justify-content: space-between;
 }
+.portfolio__image{
+	margin: 0 auto
+}
 .bx-wrapper {
         box-shadow: none;
         border: none;
